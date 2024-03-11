@@ -26,67 +26,67 @@
 
 //Calculate Rectangle Calculation
 
-// function calculateRectangleArea(){
+function calculateRectangleArea(){
 
-//    const rectangleWidthInput = document.getElementById('rectangle-width');
-//    const rectangleWidthText = rectangleWidthInput.value;
-//    const width  = parseFloat(rectangleWidthText);
-//    //console.log(  width)
+   const rectangleWidthInput = document.getElementById('rectangle-width');
+   const rectangleWidthText = rectangleWidthInput.value;
+   const width  = parseFloat(rectangleWidthText);
+   //console.log(  width)
 
-//    const rectangleLengthInput = document.getElementById('rectangle-length');
-//    const rectangleLengthText = rectangleLengthInput.value;
-//    const length = parseFloat(rectangleLengthText);
-//    //console.log(length)
+   const rectangleLengthInput = document.getElementById('rectangle-length');
+   const rectangleLengthText = rectangleLengthInput.value;
+   const length = parseFloat(rectangleLengthText);
+   //console.log(length)
 
-//    const area = width * length;
+   const area = width * length;
 
-// }
-//    const rectangleAreaSpan = document.getElementById('rectangle-area');
+}
+   const rectangleAreaSpan = document.getElementById('rectangle-area');
 
-//    rectangleAreaSpan.innerText = area;
+   rectangleAreaSpan.innerText = area;
 
-// function calculateParallelogramArea(){
+function calculateParallelogramArea(){
 
-//   const parallelogramBaseInput = document.getElementById('parallelogram-base');
-//   const parallelogramBaseText = parallelogramBaseInput.value ;
-//   const base = parseFloat(parallelogramBaseText);
+  const parallelogramBaseInput = document.getElementById('parallelogram-base');
+  const parallelogramBaseText = parallelogramBaseInput.value ;
+  const base = parseFloat(parallelogramBaseText);
 
-//  const parallelogramHeightInput = document.getElementById('parallelogram-height');
-//  const parallelogramHeightText = parallelogramBaseInput.value;
-//  const height =  parseFloat(parallelogramBaseText);
+ const parallelogramHeightInput = document.getElementById('parallelogram-height');
+ const parallelogramHeightText = parallelogramBaseInput.value;
+ const height =  parseFloat(parallelogramBaseText);
 
-//  const area = base * height;
+ const area = base * height;
 
-// const parallelogramSpanArea = document.getElementById('parallelogram-area');
-// parallelogramSpanArea.innerText = area;
+const parallelogramSpanArea = document.getElementById('parallelogram-area');
+parallelogramSpanArea.innerText = area;
 
-// }
+}
 
 //pentagon calculate
 
-// function calculatePentagonArea() {
-//   const perimeter = getInputValueById("pentagon-perimeter");
-//   const apothem = getInputValueById("pentagon-apothem");
-//   const area = 0.5 * perimeter * apothem;
+function calculatePentagonArea() {
+  const perimeter = getInputValueById("pentagon-perimeter");
+  const apothem = getInputValueById("pentagon-apothem");
+  const area = 0.5 * perimeter * apothem;
 
-//   setInnerTextById("pentagon-area", area);
-// }
+  setInnerTextById("pentagon-area", area);
+}
 
-// function getInputValueById(inputFieldId) {
-//   const inputField = document.getElementById(inputFieldId);
-//   const inputValueText = inputField.value;
-//   const value = parseFloat(inputValueText);
-//   return value;
-// }
+function getInputValueById(inputFieldId) {
+  const inputField = document.getElementById(inputFieldId);
+  const inputValueText = inputField.value;
+  const value = parseFloat(inputValueText);
+  return value;
+}
 
-// function setInnerTextById(elementId, area) {
-//   const element = document.getElementById(elementId);
+function setInnerTextById(elementId, area) {
+  const element = document.getElementById(elementId);
 
-//   element.innerText = area;
-// }
+  element.innerText = area;
+}
 
 
-//  Calculate ellipse 
+ //Calculate ellipse 
 
 
 function calculateEllipseArea() {
