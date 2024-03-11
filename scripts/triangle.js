@@ -1,0 +1,90 @@
+
+
+// Calculate Triangle Calculation
+
+function calculateTriangleArea() {
+  // get triangle base value
+  const triangleBaseInput = document.getElementById("triangle-Base");
+  const triangleBaseText = triangleBaseInput.value;
+  const base = parseFloat(triangleBaseText);
+   console.log( base)
+
+  // get triangle Height value
+
+  const triangleHeightInput = document.getElementById("triangle-height");
+  const triangleHeightText = triangleHeightInput.value;
+  const height = parseFloat(triangleHeightText);
+  console.log( height);
+
+ const area = 0.5 * base * height;
+ console.log('area of triangle is ',area)
+
+ // display triangle area
+
+ const triangleAreaSpan = document.getElementById('triangle-area');
+ triangleAreaSpan.innerText = area;
+
+}
+
+
+
+Calculate Rectangle Calculation 
+
+
+function calculateRectangleArea(){
+
+   const rectangleWidthInput = document.getElementById('rectangle-width');
+   const rectangleWidthText = rectangleWidthInput.value;
+   const width  = parseFloat(rectangleWidthText);
+   //console.log(  width)
+  
+   const rectangleLengthInput = document.getElementById('rectangle-length');
+   const rectangleLengthText = rectangleLengthInput.value;
+   const length = parseFloat(rectangleLengthText);
+   //console.log(length)
+
+   const area = width * length;
+   
+
+}
+   const rectangleAreaSpan = document.getElementById('rectangle-area');
+
+   rectangleAreaSpan.innerText = area;
+
+
+
+function calculateParallelogramArea(){
+   
+  const parallelogramBaseInput = document.getElementById('parallelogram-base');
+  const parallelogramBaseText = parallelogramBaseInput.value ;
+  const base = parseFloat(parallelogramBaseText);
+
+ 
+
+ const parallelogramHeightInput = document.getElementById('parallelogram-height');
+ const parallelogramHeightText = parallelogramBaseInput.value;
+ const height =  parseFloat(parallelogramBaseText);
+
+ 
+
+ const area = base * height;
+ 
+
+const parallelogramSpanArea = document.getElementById('parallelogram-area');
+parallelogramSpanArea.innerText = area;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
